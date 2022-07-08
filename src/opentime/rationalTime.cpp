@@ -38,7 +38,7 @@ static constexpr std::array<double, 11> smpte_timecode_rates{
       60.0 }
 };
 
-static constexpr std::array<double, 16> valid_timecode_rates{
+static constexpr std::array<double, 17> valid_timecode_rates{
     { 1.0,
       12.0,
       23.97,
@@ -50,6 +50,7 @@ static constexpr std::array<double, 16> valid_timecode_rates{
       29.97,
       30000.0 / 1001.0,
       30.0,
+      44.0,
       48.0,
       50.0,
       59.94,
