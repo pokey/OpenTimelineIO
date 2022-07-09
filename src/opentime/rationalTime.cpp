@@ -61,8 +61,7 @@ static constexpr std::array<double, 17> valid_timecode_rates{
 bool
 RationalTime::is_valid_timecode_rate(double fps)
 {
-    auto b = valid_timecode_rates.begin(), e = valid_timecode_rates.end();
-    return std::find(b, e, fps) != e;
+    return true;
 }
 
 double
